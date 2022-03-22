@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="App.css">
+  </head>
+  <body>
+    <div id="game-container">
+
+        <center>
+      <h1>Rock Paper Scissors</h1>
+</center>
+      <div id="scores-container">
+        <div class="player-score-container">
+          <p class="player">Player</p>
+          <span class="player-score">0</span>
+        </div>
+
+        <div class="computer-score-container">
+          <p class="computer">Computer</p>
+          <span class="computer-score">0</span>
+        </div>
+
+      </div>
+
+    <p class="instruction">Choose your weapon</p>
+
+    <p class="moves-left">Moves left : <span class="moves">10</span></p>
+
+      <div id="buttons" class="options">
+          <button class="rock" id="btn">Rock</button>
+          <button class="paper" id="btn">Paper</button>
+          <button class="scissors" id="btn">Scissors</button>
+      </div>
+
+      <p class="result"></p>
+      
+    </div>
+    <script src="App.js"></script>
+  </body>
+</html>
